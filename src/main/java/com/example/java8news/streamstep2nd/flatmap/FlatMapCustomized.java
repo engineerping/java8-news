@@ -1,4 +1,4 @@
-package com.example.java8news.streamstep2nd.flatmapcustomized;
+package com.example.java8news.streamstep2nd.flatmap;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,8 +6,6 @@ import java.util.List;
 import java.util.stream.Stream;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.cache.Cache;
 
 //@SpringBootTest //如果不需要启动 spring 容器，则不需要注解 @SpringBootTest
 public class FlatMapCustomized {
